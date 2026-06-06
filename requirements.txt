@@ -1,0 +1,8 @@
+PyQt6
+PyMuPDF
+pandas
+openpyxl
+python-docx
+docx2pdf
+docxcompose
+qtawesome

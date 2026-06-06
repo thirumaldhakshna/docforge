@@ -1,0 +1,40 @@
+# Environments
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Build/Packaging
+build/
+dist/
+*.egg-info/
+installer_output/
+DocForge.spec
+BulkReportV2.spec
+
+# Logs and databases
+logs/
+*.log
+
+# Scratch and test files
+scratch_test.py
+test_pipeline.py
+diagnose_renderer.py
+*.pdf
+
+# OS generated files
+.DS_Store
+Thumbs.db
