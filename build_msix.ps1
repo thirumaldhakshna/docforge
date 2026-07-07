@@ -27,7 +27,7 @@ param(
     [switch]$SkipBuild,
     [switch]$SkipSign,
     [string]$CertificatePassword = "DocForge2024!",
-    [string]$Publisher = "CN=Thirumal Dhakshnamoorthy",
+    [string]$Publisher = "CN=604BDC17-D448-4F42-B665-0A9ABB0A763C",
     [string]$Version = "1.0.0.0"
 )
 
