@@ -33,3 +33,27 @@ To build a standalone executable:
 ```cmd
 pyinstaller DocForge.spec
 ```
+
+## Build MSIX Package (Microsoft Store)
+
+DocForge can be packaged as an MSIX for the Microsoft Store or sideloading.
+
+**Prerequisites:**
+- Windows 10 SDK ([download](https://developer.microsoft.com/en-us/windows/downloads/windows-sdk/))
+- PyInstaller (`pip install pyinstaller`)
+
+**Build the MSIX package:**
+```powershell
+# Full build (PyInstaller + MSIX packaging)
+.\build_msix.ps1
+
+# Skip PyInstaller if you already have dist\DocForge\
+.\build_msix.ps1 -SkipBuild
+
+# Skip signing (for Microsoft Store submission — Microsoft signs it)
+.\build_msix.ps1 -SkipSign
+```
+
+The output `.msix` file will be in `msix_output\`.
+
+**For detailed Microsoft Store publishing instructions, see [store_submission.md](store_submission.md).**

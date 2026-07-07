@@ -22,8 +22,13 @@ build/
 dist/
 *.egg-info/
 installer_output/
+msix_output/
 DocForge.spec
 BulkReportV2.spec
+
+# MSIX Dev Certificates
+*.pfx
+*.cer
 
 # Logs and databases
 logs/
